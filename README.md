@@ -10,6 +10,10 @@ Build a search autofill component using React (with Vite) that filters and displ
 *   **Language**: TypeScript
 *   **Architecture**: MVC (Model-View-Controller)
 
+## Live Demo
+
+Check out the live application here: [https://autofill-with-lru-cache.netlify.app/](https://autofill-with-lru-cache.netlify.app/)
+
 ## Architecture Breakdown
 
 ### Model Layer (`src/models/`)
@@ -31,7 +35,7 @@ Build a search autofill component using React (with Vite) that filters and displ
 *   Handles input change events.
 *   Uses a **debounce** function with a 300ms delay to trigger filtering.
 *   Checks the cache for existing results.
-*   Updates the UI when results are retrieved or filtered.
+*   Updates the UI when results is successfully retrieved or filtered.
 
 ## Features
 
